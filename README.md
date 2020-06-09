@@ -1,2 +1,2 @@
-# interview_questions
+# Interview Questions
 Preparation for interview questions
