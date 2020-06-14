@@ -13,13 +13,11 @@ func main() {
 	if err != nil {
 		panic(err.Error())
 	}
-	if !validInput(intInput) {
-		panic("Input should be 3 integers")
-	}
+	// if !validInput(intInput) {
+	// 	panic("Input should be 3 integers")
+	// }
 
-	naiiveSolution(intInput)
-
-
+	sortSolution(intInput)
 }
 
 func covertToInt(input []string) ([]int, error) {
