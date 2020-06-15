@@ -1,4 +1,4 @@
-package main
+package medean_of_three
 
 import (
 	"errors"
