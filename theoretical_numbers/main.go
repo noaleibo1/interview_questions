@@ -1,4 +1,4 @@
-package main
+package theoretical_numbers
 
 import "fmt"
 

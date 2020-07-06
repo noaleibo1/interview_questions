@@ -22,18 +22,18 @@ func getLastWordUsingFields(str string) (lastWord string) {
 
 func getLastWord(str string) (lastWord string) {
 	var i int
-	for i = len(str)-1; i>=0; i--{ // Remove whitespace suffix
-		if str[i] == ' '{
+	for i = len(str) - 1; i >= 0; i-- { // Remove whitespace suffix
+		if str[i] == ' ' {
 			continue
 		} else {
 			break
 		}
 	}
-	for ; i >= 0; i--{
-		if str[i] == ' '{
+	for ; i >= 0; i-- {
+		if str[i] == ' ' {
 			break
 		} else {
-			lastWord = fmt.Sprintf("%s%s",string(str[i]), lastWord)
+			lastWord = fmt.Sprintf("%s%s", string(str[i]), lastWord)
 		}
 	}
 	return

@@ -1,4 +1,4 @@
-package medean_of_three
+package median_of_three
 
 import (
 	"errors"
