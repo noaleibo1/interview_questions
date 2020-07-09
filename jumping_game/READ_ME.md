@@ -1,0 +1,1 @@
+Link to question - https://algoritmim.co.il/2019/06/23/jump-game/#more-632
