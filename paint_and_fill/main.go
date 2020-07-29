@@ -34,13 +34,12 @@ func fillAndPaintReq(matrix [][]int, x int, y int, color int, colorToPaint int) 
 	return matrix
 }
 
-func fillAndPaint(matrix [][]int, x int, y int, color int) [][]int{
-	return fillAndPaintReq(matrix, x,y,color, matrix[x][y])
+func fillAndPaint(matrix [][]int, x int, y int, color int) [][]int {
+	return fillAndPaintReq(matrix, x, y, color, matrix[x][y])
 }
 
-
 func printMatrix(matrix [][]int) {
-	for _, row := range matrix{
+	for _, row := range matrix {
 		fmt.Println(row)
 	}
 }

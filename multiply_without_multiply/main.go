@@ -17,10 +17,10 @@ func naiveRecursiveMultiply(i int, j int) (sum int) {
 
 func recursionMultiply(i int, j int) (sum int) {
 	multiplyCache := map[int]int{}
-	if i==0 || j==0{
+	if i == 0 || j == 0 {
 		sum = 0
 		return
-	} else if j == 1{
+	} else if j == 1 {
 		multiplyCache[1] = i
 		sum = i
 		return
@@ -34,7 +34,7 @@ func recursionMultiply(i int, j int) (sum int) {
 			sum = v + v - 1
 		}
 	} else {
-		if j%2 == 0{
+		if j%2 == 0 {
 			sum = recursionMultiply(i, j/2) + recursionMultiply(i, j/2)
 		} else {
 			sum = recursionMultiply(i, j/2) + recursionMultiply(i, j/2) - 1
